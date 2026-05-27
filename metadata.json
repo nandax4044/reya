@@ -1,0 +1,6 @@
+{
+  "name": "Reya Ps Private Server",
+  "description": "Website resmi Reya Ps Growtopia Private Server. Alami petualangan klasik dengan fitur terbaik, komunitas aktif, sistem cheat aman, dan event menarik.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

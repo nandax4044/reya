@@ -1,0 +1,336 @@
+{
+  "hero": {
+    "bannerText": "SERVER PRIVATE GROWTOPIA TERSTABIL DI INDONESIA",
+    "brandName": "Reya Ps",
+    "tagline": "",
+    "description": "Selamat datang di Reya Ps! Server privat Growtopia (GTPS) berkinerja tinggi, penuh tantangan sandbox klasik nan megah. Ditingkatkan dengan fitur kustom modern luar biasa, asisten autofarm legal, perlindungan anti-scam canggih, dan event musiman yang meriah sepanjang musim.",
+    "ctaPrimaryText": "Mulai Bermain Sekarang",
+    "ctaSecondaryText": "Gabung Komunitas Discord",
+    "ctaSecondaryHref": "https://discord.gg/ZuaVycybM",
+    "statsRegistered": "50",
+    "statsActiveWorlds": "40",
+    "statsOnlineIcon": "",
+    "statsRegisteredIcon": "",
+    "statsActiveWorldsIcon": "",
+    "logoUrl": ""
+  },
+  "howToPlay": {
+    "serverIp": "15.235.166.218",
+    "apkUrl": "https://www.mediafire.com/file/fk9njogo96o20ae/MaytreyaPS.apk/file",
+    "installerApkUrl": "https://www.mediafire.com/file/fk9njogo96o20ae/MaytreyaPS.apk/file",
+    "hostUrlAndroid": "https://gtpshosting.web.id/raw/REYAPS",
+    "hostUrlIos": "https://gtpshosting.web.id/ios/REYAPS",
+    "powerTunnelUrl": "https://github.com/knyar/PowerTunnel-Android/releases",
+    "virtualHostTxtUrl": "https://www.mediafire.com/file/qw0zntny0pc2q9w/REYAPS_%25281%2529.txt/filer",
+    "android": [
+      {
+        "num": 1,
+        "title": "Install PowerTunnel",
+        "desc": "Unduh file PowerTunnel terbaru dari rilis resmi secara gratis di sini dan instal file APK tersebut di HP Android kamu.",
+        "hasAction": true,
+        "actionType": "download_tun",
+        "actionData": "https://github.com/knyar/PowerTunnel-Android/releases"
+      },
+      {
+        "num": 2,
+        "title": "Configure Host Settings",
+        "desc": "Buka aplikasi PowerTunnel -> pergi ke menu samping (☰) -> pilih Host Settings -> pilih Opsi Host list URL."
+      },
+      {
+        "num": 3,
+        "title": "Paste Server Redirect",
+        "desc": "Klik tombol Salin URL Pengarah di bawah ini, lalu tempelkan link URL tersebut ke kolom inputan list URL aplikasi PowerTunnel.",
+        "hasAction": true,
+        "actionType": "copy",
+        "actionData": "https://gtpshosting.web.id/raw/REYAPS"
+      },
+      {
+        "num": 4,
+        "title": "Mulai Layanan PowerTunnel",
+        "desc": "Atur konfigurasi Update Period menjadi 'On Start', kemudian ketuk tombol START besar (ikon warna VPN akan aktif)."
+      },
+      {
+        "num": 5,
+        "title": "Buka Growtopia Resmi",
+        "desc": "Jalankan game Growtopia resmi kamu di Android, ketuk tombol Play dan akunmu akan langsung diarahkan masuk ke server Reya Ps!"
+      }
+    ],
+    "ios": [
+      {
+        "num": 1,
+        "title": "Undur Surge",
+        "desc": "Dapatkan aplikasi utilitas proxy penunjuk rute DNS seperti Surge via Apple App Store secara resmi."
+      },
+      {
+        "num": 2,
+        "title": "Konfigurasi Host Kustom",
+        "desc": "Buat profil konfigurasi rules baru di dalam aplikasi proxy, pilih menu editor host lokal."
+      },
+      {
+        "num": 3,
+        "title": "Masukkan URL Alamat Host",
+        "desc": "Masukkan URL server proxy di bawah ini ke dalam list rules domain penunjuk Growtopia milikmu.",
+        "hasAction": true,
+        "actionType": "copy",
+        "actionData": "https://gtpshosting.web.id/ios/REYAPS"
+      },
+      {
+        "num": 4,
+        "title": "Izinkan Konfigurasi VPN",
+        "desc": "Aktifkan master sakelar Surge kamu, lalu tekan 'Izinkan' saat sistem iOS meminta persetujuan profil VPN."
+      },
+      {
+        "num": 5,
+        "title": "Mainkan Growtopia IOS",
+        "desc": "Buka game Growtopia resmi di perangkat iOS milikmu, pencet tombol berlabuh dan mulailah petualangan mengasyikkan di Reya Ps!"
+      }
+    ],
+    "windows": [
+      {
+        "num": 1,
+        "title": "Akses Folder ETC Windows",
+        "desc": "Buka File Explorer komputer lantas jelajahi jalur path sistem Windows penting berikut: C:\\Windows\\System32\\drivers\\etc\\"
+      },
+      {
+        "num": 2,
+        "title": "Edit File 'hosts' dengan Notepad",
+        "desc": "Cari fail bernama 'hosts' (tanpa format ekstensi), klik kanan, lalu buka menggunakan perangkat lunak Notepad dengan hak akses Run as Administrator."
+      },
+      {
+        "num": 3,
+        "title": "Tuliskan IP Reroute Server",
+        "desc": "Sisipkan baris data alamat IP Reya Ps berikut ini di posisi baris terbawah hosts teks guna mengarahkan growtopia resmi:",
+        "hasAction": true,
+        "actionType": "code_terminal",
+        "actionData": "15.235.166.218 growtopia1.com\\15.235.166.218 growtopia2.com"
+      },
+      {
+        "num": 4,
+        "title": "Simpan File Hosts",
+        "desc": "Tekan kombinasi tombol simpan CTRL + S di Notepad, pastikan perubahan baris tersimpan sempurna tanpa mengubah nama file."
+      },
+      {
+        "num": 5,
+        "title": "Masuk ke Game",
+        "desc": "Jalankan Growtopia versi PC kamu, ketuk tombol Play, dan server privat Reya Ps langsung siap melayanimu berlaga!"
+      }
+    ],
+    "mac": [
+      {
+        "num": 1,
+        "title": "Buka Aplikasi Terminal Mac",
+        "desc": "Use the Spotlight tool by searching for CMD + Spacebar, type 'Terminal', then press enter."
+      },
+      {
+        "num": 2,
+        "title": "Jalankan Perintah Edit Sudo Nano",
+        "desc": "Salin dan ketikkan kode instruksi berikut ke dalam jendela Terminal lalu isi password administrator Macbook/iMac kamu:",
+        "hasAction": true,
+        "actionType": "code_terminal",
+        "actionData": "sudo nano /etc/hosts"
+      },
+      {
+        "num": 3,
+        "title": "Tempelkan IP Server Growtopia",
+        "desc": "Arahkan kursor baris ke paling bawah menggunakan tombol panah keyboard lalu isikan pemetaan IP Reya Ps berikut:",
+        "hasAction": true,
+        "actionType": "code_terminal",
+        "actionData": "15.235.166.218 growtopia1.com\\15.235.166.218 growtopia2.com"
+      },
+      {
+        "num": 4,
+        "title": "Simpan Dan Tutup Editor Nano",
+        "desc": "Pencet kombinasi keyboard CTRL + O lalu tekan Enter untuk writeout file, dilanjut CTRL + X demi mengakhiri sesi penulisan."
+      },
+      {
+        "num": 5,
+        "title": "Lepas Landas Ke Game",
+        "desc": "Buka Growtopia Mac client resmi, nikmati petualangan sandbox menyenangkan yang lancar tanpa gangguan kendala!"
+      }
+    ]
+  },
+  "features": {
+    "leaderboardTitle": "Sistem Leaderboard",
+    "leaderboardDesc": "Lacak posisi peringkat pemain terhebat secara aktual (real-time). Lihat klasemen pemegang World Lock (DL/WL) terbanyak dan pemanen batu berharga Gems paling giat. Jadikan namamu abadi dalam deretan legendaris penguasa ekonomi Reya Ps!",
+    "cheatTitle": "Asisten Automasi Resmi (Cheat Legal)",
+    "cheatDesc": "Gunakan asisten automasi moduler yang diizinkan sistem kami. Nikmati fitur autofarm cerdas dengan pengaturan jeda penambangan (delay) yang fleksibel. Kemudahan ini diatur untuk menyeimbangkan akselerasi progres akun sekaligus melestarikan ekosistem server."
+  },
+  "about": {
+    "title": "Tentang Reya Ps",
+    "description1": "Reya Ps berkomitmen penuh mempersembahkan platform server privat Growtopia yang stabil, jujur, mengutamakan inovasi, dan memiliki kekeluargaan solid. Kami ingin membuat wadah berkreasi sandbox di mana setiap orang baik pendatang baru maupun veteran kawakan merasa betah berdampingan.",
+    "description2": "Selaku jembatan rekreasi yang aman, kami bekerja siaga meningkatkan mutu server dari waktu ke waktu melintasi penambahan kosmetik unik berkilauan, responsif memberantas tindak penipuan (anti-scam), rutin menggelar turnamen bergengsi, dan meminimalisir waktu pemeliharaan server.",
+    "statsDevs": "6",
+    "statsStaffs": "42",
+    "highlights": [
+      {
+        "title": "Sistem Ekonomi Terjaga",
+        "desc": "Sistem niaga dinamis yang mapan berfokus padu di seputar trading bebas, koleksi World Locks, dan kestabilan siklus gems.",
+        "icon": "Coins",
+        "color": "text-amber-400 bg-amber-500/10 border-amber-500/20"
+      },
+      {
+        "title": "Segudang Fitur Kustom",
+        "desc": "Beri gaya pada karaktermu via ratusan item kustom eksklusif, efek sayap berkilau khusus, dan mekanika instrik spesial.",
+        "icon": "Sparkles",
+        "color": "text-cyan-400 bg-cyan-500/10 border-cyan-500/20"
+      },
+      {
+        "title": "Turnamen Terjadwal",
+        "desc": "Raih Growtokens berlimpah dan gelar langka lewat event mingguan World of the Week (WOTW) serta rilis gacha terbatas.",
+        "icon": "Gift",
+        "color": "text-pink-400 bg-pink-500/10 border-pink-500/20"
+      },
+      {
+        "title": "Komunitas Solid & Hangat",
+        "desc": "Ribuan member aktif siap diajak mengobrol santai, bertransaksi aman bertumpu kejujuran, dan berkolaborasi merias dunia impian.",
+        "icon": "Users2",
+        "color": "text-emerald-400 bg-emerald-500/10 border-emerald-500/20"
+      }
+    ]
+  },
+  "community": {
+    "discordTitle": "Bergabung ke Discord Resmi",
+    "discordDesc": "Terhubunglah bersama ribuan player aktif lainnya, dapatkan bantuan teknis secepat kilat dari tim bantuan, berpartisipasi dalam pembagian item gratis (giveaway), dan tetap terupdate dengan log berita server terbaru setiap harinya.",
+    "discordUrl": "https://discord.gg/ZuaVycybM",
+    "whatsappUrl": "https://chat.whatsapp.com/HLZ0U8UIRiWBb0XeoI1ljK",
+    "tips": [
+      {
+        "id": 1,
+        "title": "Clash Events",
+        "desc": "Ikuti Clash Event musiman! Putar gacha multi-tier khusus untuk mendapatkan item loot super langka."
+      },
+      {
+        "id": 2,
+        "title": "World of the Week",
+        "desc": "Bangun dunia maha megah nan epik untuk kompetisi WOTW! Menangkan piala eksklusif dan Growtokens bernilai tinggi."
+      },
+      {
+        "id": 3,
+        "title": "Direct Support",
+        "desc": "Butuh bantuan langsung dari admin? Ketik perintah /ask di dalam game untuk mengirim ping langsung ke ruang Discord staff."
+      },
+      {
+        "id": 4,
+        "title": "Deep Mining",
+        "desc": "Jelajahi gua prosedural penuh misteri lewat sistem Deep Mining! Gali sedalam mungkin untuk menyingkap harta karun tertimbun."
+      }
+    ],
+    "rules": [
+      "Hormati sesama pemain. Pelecehan seksual, ujaran kebencian (SARA), bullying, atau toxic chat di ruang publik dilarang keras.",
+      "Tindakan scamming (penipuan), menyamar sebagai tim staff, atau menyesatkan informasi ke pemain lain dilarang dan berujung ban permanen.",
+      "Menggunakan aplikasi bot ilegal pihak ketiga atau tools penyusupan server di luar cheater tool resmi yang diperbolehkan dilarang.",
+      "Dilarang menyalahgunakan bugs, kecacatan sistem, atau celah eror lainnya. Laporkan segera ke staff jika menemukannya.",
+      "Dilarang mempromosikan server lain, memasang iklan tak pantas, spam berlebihan, atau mengacaukan ketertiban chat lobi."
+    ]
+  },
+  "staff": [
+    {
+      "id": "munich",
+      "name": "Munich The Manjo",
+      "role": "Server Owner",
+      "badgeText": "Server Owner",
+      "badgeStyle": "bg-purple-500/10 border-purple-500/20 text-purple-400",
+      "avatarType": "nuh_uh"
+    },
+    {
+      "id": "regi",
+      "name": "Regi The Mango",
+      "role": "Community Admin",
+      "badgeText": "Community Admin",
+      "badgeStyle": "bg-emerald-500/10 border-emerald-500/20 text-emerald-400",
+      "avatarType": "mango"
+    },
+    {
+      "id": "skoobz",
+      "name": "Skoobz",
+      "role": "Web-Developer",
+      "badgeText": "Web-Developer",
+      "badgeStyle": "bg-cyan-500/10 border-cyan-500/20 text-cyan-400",
+      "avatarType": "gamer"
+    },
+    {
+      "id": "bang",
+      "name": "Bang",
+      "role": "Developer",
+      "badgeText": "Developer",
+      "badgeStyle": "bg-amber-500/10 border-amber-500/20 text-amber-500",
+      "avatarType": "flaming_f"
+    },
+    {
+      "id": "quiverall",
+      "name": "Quiverall",
+      "role": "Developer",
+      "badgeText": "Developer",
+      "badgeStyle": "bg-amber-500/10 border-amber-500/20 text-amber-500",
+      "avatarType": "crocodile"
+    },
+    {
+      "id": "aphoemous",
+      "name": "Aphoemous",
+      "role": "Community Staff",
+      "badgeText": "Community Staff",
+      "badgeStyle": "bg-blue-500/10 border-blue-500/20 text-blue-400",
+      "avatarType": "anime_chibi"
+    },
+    {
+      "id": "surt",
+      "name": "Ny. Surti",
+      "role": "Community Staff",
+      "badgeText": "Community Staff",
+      "badgeStyle": "bg-blue-500/10 border-blue-500/20 text-blue-400",
+      "avatarType": "weaver"
+    }
+  ],
+  "faqs": [
+    {
+      "id": 1,
+      "question": "Apa itu Reya Ps?",
+      "answer": "Reya Ps adalah server privat Growtopia (GTPS) berperforma tinggi tangguh yang menyajikan simulasi dunia sandbox klasik gratis secara aman. Kami menambahkan kosmetik unik, asisten resmi, ekonomi stabil, dan pengawasan anti-scam ketat."
+    },
+    {
+      "id": 2,
+      "question": "Bagaimana cara mulai bermain?",
+      "answer": "Sangat gampang! Klik tombol 'Cara Bermain' di navigasi atas atau gulu ke bagian 'How to Play'. Pilih OS gayamu (Android, iOS, Windows, Mac) lalu tiru urutan 5 langkah konfigurasinya secara cermat."
+    },
+    {
+      "id": 3,
+      "question": "Apakah Reya Ps gratis 100%?",
+      "answer": "Ya, sepenuhnya F2P (Free to Play)! Semua aktivitas mulai dari farming gems, memanen blok, pengumpulan locks, menyewa world, dan berniaga bersama player lain terbuka bebas tanpa pungutan biasa."
+    },
+    {
+      "id": 4,
+      "question": "Apa saja fitur kustom unggulannya?",
+      "answer": "Kami membekali website dengan ranking leaderboard live, perintah asisten autofarm resmi berkecepatan kustom, ratusan kosmetik unik bercahaya, dan event berhadiah item musiman bernilai tinggi."
+    },
+    {
+      "id": 5,
+      "question": "Bagaimana cara menimbun gems dan locks?",
+      "answer": "Anda bisa menambang benih pohon blok (farming), bermigrasi ke world perdagangan sehat (/trade), berburu quest harian, atau bersaing menjuarai kompetisi build world mingguan (WOTW)."
+    },
+    {
+      "id": 6,
+      "question": "Apakah aksi penipuan (scamming) dibenarkan?",
+      "answer": "SAMA SEKALI TIDAK. Integritas persahabatan bermain adalah prioritas kami. Segala bentuk aksi scamming, perampasan akun, pemerasan atau pemalsuan identitas admin berujung sanksi pemblokiran IP permanen tanpa toleransi."
+    },
+    {
+      "id": 7,
+      "question": "Bagaimana melayangkan laporan bug / toxic member?",
+      "answer": "Anda bisa mengetikkan perintah lapor langsung di game `/ask <keluhan>` untuk memanggil moderator aktif secara realtime, atau membuka tiket (Support Ticket) di forum Discord resmi kami."
+    },
+    {
+      "id": 8,
+      "question": "Apakah event server sering dihelat?",
+      "answer": "Sangat terjaga! Kami menyelenggarakan festival tahunan perayaan menyambut tahun baru, pesta gacha terbatas berpartikel mewah, dan Clash Events mingguan penuh hadiah mentereng."
+    },
+    {
+      "id": 9,
+      "question": "Bolehkah saya mengajak kerabat bermain?",
+      "answer": "Sangat direkomendasikan! Berkelompok bersama kawan sekampung halaman merancang megastruktur dunia atau mendominasi puncak peringkat kemakmuran finansial akan mendongkrak keasyikan bermain berkali lipat!"
+    },
+    {
+      "id": 10,
+      "question": "Ke mana saya menaruh saran kerja sama?",
+      "answer": "Tawarkan kerja sama sponsor, afiliasi konten kreator, atau saran konstruktif langsung dengan staff pengelola utama dengan mendarat di kanal bantuan tiket support server Discord resmi."
+    }
+  ]
+}
