@@ -12,7 +12,7 @@ export default function PlayModal({ isOpen, onClose }: PlayModalProps) {
   
   if (!isOpen) return null;
 
-  const serverIp = "15.235.166.218";
+  const serverIp = "5.83.134.129";
 
   const handleCopyIp = () => {
     navigator.clipboard.writeText(serverIp).then(() => {

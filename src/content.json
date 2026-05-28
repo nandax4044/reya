@@ -15,13 +15,13 @@
     "logoUrl": ""
   },
   "howToPlay": {
-    "serverIp": "15.235.166.218",
+    "serverIp": "5.83.134.129",
     "apkUrl": "https://www.mediafire.com/file/fk9njogo96o20ae/MaytreyaPS.apk/file",
     "installerApkUrl": "https://www.mediafire.com/file/fk9njogo96o20ae/MaytreyaPS.apk/file",
     "hostUrlAndroid": "https://gtpshosting.web.id/raw/REYAPS",
     "hostUrlIos": "https://gtpshosting.web.id/ios/REYAPS",
     "powerTunnelUrl": "https://github.com/knyar/PowerTunnel-Android/releases",
-    "virtualHostTxtUrl": "https://www.mediafire.com/file/qw0zntny0pc2q9w/REYAPS_%25281%2529.txt/filer",
+    "virtualHostTxtUrl": "REYAPS.txt",
     "android": [
       {
         "num": 1,
@@ -102,7 +102,7 @@
         "desc": "Sisipkan baris data alamat IP Reya Ps berikut ini di posisi baris terbawah hosts teks guna mengarahkan growtopia resmi:",
         "hasAction": true,
         "actionType": "code_terminal",
-        "actionData": "15.235.166.218 growtopia1.com\\15.235.166.218 growtopia2.com"
+        "actionData": "5.83.134.129 www growtopia1.com\\5.83.134.129 www growtopia2.com"
       },
       {
         "num": 4,
@@ -135,7 +135,7 @@
         "desc": "Arahkan kursor baris ke paling bawah menggunakan tombol panah keyboard lalu isikan pemetaan IP Reya Ps berikut:",
         "hasAction": true,
         "actionType": "code_terminal",
-        "actionData": "15.235.166.218 growtopia1.com\\15.235.166.218 growtopia2.com"
+        "actionData": "5.83.134.129 www growtopia1.com\\5.83.134.129 www growtopia2.com"
       },
       {
         "num": 4,

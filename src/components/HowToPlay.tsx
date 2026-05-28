@@ -9,13 +9,13 @@ export default function HowToPlay() {
   const { content } = useContent();
   const [copiedText, setCopiedText] = useState<string | null>(null);
 
-  const serverIp = content.howToPlay?.serverIp || "134.209.112.98";
+  const serverIp = content.howToPlay?.serverIp || "5.83.134.129";
   const apkUrl = content.howToPlay?.apkUrl || "https://mediafire.com/file/reyaps_apk/download";
   const installerApkUrl = content.howToPlay?.installerApkUrl || apkUrl;
   const hostUrlAndroid = content.howToPlay?.hostUrlAndroid || "https://growtopia.id/android";
   const hostUrlIos = content.howToPlay?.hostUrlIos || "https://growtopia.id/ios";
-  const powerTunnelUrl = content.howToPlay?.powerTunnelUrl || "https://github.com/knyar/PowerTunnel-Android/releases";
-  const virtualHostTxtUrl = content.howToPlay?.virtualHostTxtUrl || "https://host.logo.png/private-server";
+  const powerTunnelUrl = content.howToPlay?.powerTunnelUrl || "https://powertunnel.en.uptodown.com/android/download";
+  const virtualHostTxtUrl = content.howToPlay?.virtualHostTxtUrl || "https://www.mediafire.com/file/fsg6bkmyrww13ch/REYAPS+(3).txt/file";
 
   const handleCopy = (text: string, id: string) => {
     navigator.clipboard.writeText(text).then(() => {
@@ -335,7 +335,7 @@ export default function HowToPlay() {
                 <li className="flex gap-2">
                   <span className="font-mono text-cyan-400 font-bold shrink-0">1.</span>
                   <span>
-                    Unduh dan pasang aplikasi <a href="https://play.google.com/store/search?q=hosts+go&c=apps" target="_blank" rel="noopener noreferrer" className="text-red-400 hover:text-red-300 font-black underline">Hosts Go (No Root)</a> di Google Play Store.
+                    Unduh dan pasang aplikasi <a href="https://apkpure.com/no-root-hosts-go/dns.hosts.server.change" target="_blank" rel="noopener noreferrer" className="text-red-400 hover:text-red-300 font-black underline">Hosts Go (No Root)</a> di Google Play Store.
                   </span>
                 </li>
                 <li className="flex gap-2">
@@ -408,13 +408,15 @@ export default function HowToPlay() {
             </div>
 
             <div className="mt-6 pt-4 border-t border-sky-950/20">
-              <button
-                onClick={() => handleCopy(windowsHostLines, 'hosts-file-2')}
-                className="w-full flex items-center justify-center space-x-2 py-2.5 bg-slate-950 hover:bg-slate-900 border border-slate-850 text-slate-300 font-black text-xs uppercase tracking-widest rounded-xl transition cursor-pointer select-none"
+             <a
+                href="https://www.mediafire.com/file/fsg6bkmyrww13ch/REYAPS+(3).txt/file"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full flex items-center justify-center space-x-2 py-2.5 bg-slate-950 hover:bg-slate-900 border border-slate-850 text-slate-300 font-black text-xs uppercase tracking-widest rounded-xl transition cursor-pointer select-none hover:border-cyan-500/20"
               >
                 <Download className="h-4 w-4" />
-                <span>Unduh Hosts File (.txt)</span>
-              </button>
+                <span>Download REYAPS.txt</span>
+              </a>
             </div>
           </div>
 
